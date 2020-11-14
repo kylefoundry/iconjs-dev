@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Icon from "iconjs";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Icon icon="plus" />
+      <Icon icon="credit-card" />
+      <Icon
+        icon="credit-card"
+        color="#000"
+        fill="#8800ff"
+        accent="#000"
+        accent2="#00ff00"
+        stroke="2"
+      />
+      <Icon icon="credit-card" fill="#000" stroke="0" />
     </div>
   );
 }
