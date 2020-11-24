@@ -5,6 +5,29 @@ function App() {
 	return (
 		<div className="App">
 			<Icon icon={Plus} fill="#b3b3b3" stroke="6" />
+			<Icon
+				md={{
+					accent2: "",
+					color: "",
+					end: "",
+					radius: "",
+				}}
+				breakpoints={{
+					md: {
+						accent2: "",
+						color: "",
+						end: "",
+						radius: "",
+					},
+				}}
+				icon={Plus}
+				xs={{
+					accent2: "",
+					color: "",
+					end: "",
+					radius: "",
+				}}
+			/>
 			{/* <Icon
 				icon={CreditCard}
 				color="#000"
@@ -13,7 +36,6 @@ function App() {
 				accent2="#00ff00"
 				stroke="2"
 			/> */}
-			<Icon icon={Plus} />
 			{/* <Icon icon={CreditCard} /> */}
 		</div>
 	);
